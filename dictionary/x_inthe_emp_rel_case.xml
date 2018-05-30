@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Employee Relations Case" max_length="40" name="x_inthe_emp_rel_case" type="collection"/>
+</database>
