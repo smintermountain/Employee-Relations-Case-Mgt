@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_inthe_emp_rel_case</basic_apply_to>
+        <basic_query_from>x_inthe_emp_rel_case</basic_query_from>
+        <insert_callback/>
+        <name>Cases by Same Requested For</name>
+        <query_from/>
+        <query_with><![CDATA[current.addQuery('u_caller', parent.u_caller);]]></query_with>
+        <reference_field>u_caller</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-06-11 17:49:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f1a505434fee1f80f5f3d49f0310c7ed</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Cases by Same Requested For</sys_name>
+        <sys_package display_value="Employee Relations Case Management" source="x_inthe_emp_rel">c909474b4f5a1380f5f3d49f0310c723</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Relations Case Management">c909474b4f5a1380f5f3d49f0310c723</sys_scope>
+        <sys_update_name>sys_relationship_f1a505434fee1f80f5f3d49f0310c7ed</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-06-11 17:52:54</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=f1a505434fee1f80f5f3d49f0310c7ed"/>
+</record_update>

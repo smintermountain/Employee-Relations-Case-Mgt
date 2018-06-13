@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Populate Caller Attributes on form</description>
+        <field>u_caller</field>
+        <global>true</global>
+        <messages/>
+        <name>(IHC) Populate Caller Fields</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if(isLoading){
+		return;
+		}
+   if (newValue === '') {
+	   g_form.setValue('u_caller_organization', '');
+	   g_form.setValue('u_caller_person_type', '');
+      return;
+   }
+	var ga = new GlideAjax('global.IHCUserMgrAJAX');
+	ga.addParam('sysparm_name','getUserInfo');
+	ga.addParam('sysparm_user', newValue);
+	ga.getXML(UserParse);
+
+function UserParse(response) {
+   var answer = JSON.parse(response.responseXML.documentElement.getAttribute("answer"));
+	g_form.setValue('u_caller_organization', answer.cost_center);
+	g_form.setValue('u_caller_person_type', answer.hr_type);
+	
+ 
+}
+
+   
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-06-02 00:22:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dccf36b34f12d380f5f3d49f0310c7b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(IHC) Populate Caller Fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Relations Case Management" source="x_inthe_emp_rel">c909474b4f5a1380f5f3d49f0310c723</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Relations Case Management">c909474b4f5a1380f5f3d49f0310c723</sys_scope>
+        <sys_update_name>sys_script_client_dccf36b34f12d380f5f3d49f0310c7b4</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-06-02 00:22:00</sys_updated_on>
+        <table>x_inthe_emp_rel_case</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

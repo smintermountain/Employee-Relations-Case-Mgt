@@ -6,7 +6,7 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_inthe_emp_rel_case">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <filter table="x_inthe_emp_rel_case">assignment_groupDYNAMICd6435e965f510100a9ad2572f2b47744^EQ<item endquery="false" field="assignment_group" goto="false" newquery="false" operator="DYNAMIC" or="false" value="d6435e965f510100a9ad2572f2b47744"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -14,35 +14,35 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>All Cases</mobile_title>
+        <mobile_title>Assigned to my group</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_inthe_emp_rel_case</name>
-        <order>200</order>
+        <order>400</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_inthe_emp_rel.user</roles>
+        <roles/>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2018-05-30 17:06:21</sys_created_on>
+        <sys_created_on>2018-06-12 16:32:22</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>fd0903074f9a1380f5f3d49f0310c722</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Open Cases</sys_name>
+        <sys_id>2fcd39134fee5f80f5f3d49f0310c78a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assigned to my group</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Relations Case Management" source="x_inthe_emp_rel">c909474b4f5a1380f5f3d49f0310c723</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Employee Relations Case Management">c909474b4f5a1380f5f3d49f0310c723</sys_scope>
-        <sys_update_name>sys_app_module_fd0903074f9a1380f5f3d49f0310c722</sys_update_name>
+        <sys_update_name>sys_app_module_2fcd39134fee5f80f5f3d49f0310c78a</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-06-12 16:27:20</sys_updated_on>
+        <sys_updated_on>2018-06-12 16:32:22</sys_updated_on>
         <timeline_page/>
-        <title>Open Cases</title>
+        <title>Assigned to my group</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

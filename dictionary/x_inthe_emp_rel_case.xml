@@ -1,4 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Employee Relations Case" max_length="40" name="x_inthe_emp_rel_case" type="collection"/>
+    <element audit="true" extends="task" label="Employee Relations Case" max_length="40" name="x_inthe_emp_rel_case" sizeclass="10" type="collection">
+        <element label="Requested For" max_length="32" name="u_caller" reference="sys_user" reference_qual="user_nameISNOTEMPTY^EQ" reference_qual_condition="user_nameISNOTEMPTY^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Organization" max_length="40" name="u_caller_organization" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Person Type" max_length="40" name="u_caller_person_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_case_type" dependent_on_field="u_case_type" label="Case Sub-Type" max_length="40" name="u_case_sub_type" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Compliance" label="ADA - Accomodations" sequence="0" value="ADA - Accomodations"/>
+                <element dependent_value="Corrective Action" label="Behavior" sequence="0" value="Behavior"/>
+                <element dependent_value="Investigations" label="Cultural Assessment" sequence="0" value="Cultural Assessment"/>
+                <element dependent_value="Labor Relations" label="Organizing Effort" sequence="0" value="Organizing Effort"/>
+                <element dependent_value="Misc" label="Unemployment" sequence="0" value="Unemployment"/>
+                <element dependent_value="Corrective Action" label="Call Avoidance" sequence="1" value="Call Avoidance"/>
+                <element dependent_value="Compliance" label="Conflict of Interest" sequence="1" value="Conflict of Interest"/>
+                <element dependent_value="Investigations" label="Discrimination" sequence="1" value="Discrimination"/>
+                <element dependent_value="Misc" label="Other" sequence="1" value="Other"/>
+                <element dependent_value="Labor Relations" label="Solicitation" sequence="1" value="Solicitation"/>
+                <element dependent_value="Investigations" label="Documentation Practices" sequence="2" value="Documentation Practices"/>
+                <element dependent_value="Compliance" label="DOPL" sequence="2" value="DOPL"/>
+                <element dependent_value="Corrective Action" label="Education" sequence="2" value="Education"/>
+                <element dependent_value="Investigations" label="Drug Diversion" sequence="3" value="Drug Diversion"/>
+                <element dependent_value="Corrective Action" label="Employee Health Requirements" sequence="3" value="Employee Health Requirements"/>
+                <element dependent_value="Compliance" label="Falsifying Records" sequence="3" value="Falsifying Records"/>
+                <element dependent_value="Investigations" label="Falsifying Records" sequence="4" value="Falsifying Records"/>
+                <element dependent_value="Compliance" label="Fraud" sequence="4" value="Fraud"/>
+                <element dependent_value="Corrective Action" label="Licensure/Certifications" sequence="4" value="Licensure/Certifications"/>
+                <element dependent_value="Investigations" label="Fit for Duty" sequence="5" value="Fit for Duty"/>
+                <element dependent_value="Compliance" label="Leave of Absence Concern" sequence="5" value="Leave of Absence Concern"/>
+                <element dependent_value="Corrective Action" label="Parking" sequence="5" value="Parking"/>
+                <element dependent_value="Investigations" label="Harassment" sequence="6" value="Harassment"/>
+                <element dependent_value="Corrective Action" label="Performance" sequence="6" value="Performance"/>
+                <element dependent_value="Compliance" label="Policy Violations" sequence="6" value="Policy Violations"/>
+                <element dependent_value="Investigations" label="Hiring Practices" sequence="7" value="Hiring Practices"/>
+                <element dependent_value="Compliance" label="Scope of Practice" sequence="7" value="Scope of Practice"/>
+                <element dependent_value="Investigations" label="Hostile Work Environment" sequence="8" value="Hostile Work Environment"/>
+                <element dependent_value="Compliance" label="Social Media Concerns" sequence="8" value="Social Media Concerns"/>
+                <element dependent_value="Investigations" label="Inappropriate Behavior" sequence="9" value="Inappropriate Behavior"/>
+                <element dependent_value="Compliance" label="Time Clock Issues" sequence="9" value="Time Clock Issues"/>
+                <element dependent_value="Investigations" label="Privacy/HIPAA Violations" sequence="10" value="Privacy/HIPAA Violations"/>
+                <element dependent_value="Investigations" label="Retaliation" sequence="11" value="Retaliation"/>
+                <element dependent_value="Investigations" label="Workplace Violence" sequence="12" value="Workplace Violence"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Case Type" max_length="40" name="u_case_type" type="string">
+            <choice>
+                <element label="Investigations" sequence="0" value="Investigations"/>
+                <element label="Corrective Action" sequence="1" value="Corrective Action"/>
+                <element label="Compliance" sequence="2" value="Compliance"/>
+                <element label="Labor Relations" sequence="3" value="Labor Relations"/>
+                <element label="Misc" sequence="4" value="Misc"/>
+            </choice>
+        </element>
+        <element label="Executive" max_length="40" name="u_is_executive" type="boolean"/>
+        <element label="Physician" max_length="40" name="u_is_physician" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Case Type" max_length="40" name="u_other_case_type" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Related Cases" max_length="1024" name="u_related_cases" reference="x_inthe_emp_rel_case" type="glide_list"/>
+        <element label="Resolution Date" max_length="40" name="u_resolution_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Resolution Notes" max_length="4000" name="u_resolution_notes" type="string"/>
+        <index name="index">
+            <element name="u_caller"/>
+        </index>
+    </element>
 </database>

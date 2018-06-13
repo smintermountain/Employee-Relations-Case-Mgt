@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_case_sub_type" table="x_inthe_emp_rel_case" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compliance</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADA - Accomodations</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:58:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd051b074fda1380f5f3d49f0310c7b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:58:45</sys_updated_on>
+            <u_task/>
+            <value>ADA - Accomodations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Corrective Action</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Behavior</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:57:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1b45f8f4f9a1380f5f3d49f0310c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:57:23</sys_updated_on>
+            <u_task/>
+            <value>Behavior</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Investigations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cultural Assessment</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f08493034fda1380f5f3d49f0310c7e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
+            <u_task/>
+            <value>Cultural Assessment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Labor Relations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Organizing Effort</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:59:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2215d7474fda1380f5f3d49f0310c704</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:59:07</sys_updated_on>
+            <u_task/>
+            <value>Organizing Effort</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Misc</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unemployment</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:59:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da355f474fda1380f5f3d49f0310c7bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:59:38</sys_updated_on>
+            <u_task/>
+            <value>Unemployment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Corrective Action</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Call Avoidance</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:57:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61b45f8f4f9a1380f5f3d49f0310c72f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:57:23</sys_updated_on>
+            <u_task/>
+            <value>Call Avoidance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compliance</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Conflict of Interest</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:58:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d059b474fda1380f5f3d49f0310c742</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:58:45</sys_updated_on>
+            <u_task/>
+            <value>Conflict of Interest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Investigations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Discrimination</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>348493034fda1380f5f3d49f0310c7e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
+            <u_task/>
+            <value>Discrimination</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Misc</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:59:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a355f474fda1380f5f3d49f0310c7bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:59:38</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Labor Relations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solicitation</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:59:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae15d7474fda1380f5f3d49f0310c705</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:59:07</sys_updated_on>
+            <u_task/>
+            <value>Solicitation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Investigations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Documentation Practices</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b08493034fda1380f5f3d49f0310c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
+            <u_task/>
+            <value>Documentation Practices</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compliance</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DOPL</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:58:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99059b474fda1380f5f3d49f0310c744</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:58:45</sys_updated_on>
+            <u_task/>
+            <value>DOPL</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Corrective Action</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Education</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:57:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5b497474fda1380f5f3d49f0310c72e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:57:23</sys_updated_on>
+            <u_task/>
+            <value>Education</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Investigations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Drug Diversion</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7884d3474fda1380f5f3d49f0310c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
+            <u_task/>
+            <value>Drug Diversion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Corrective Action</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Health Requirements</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:57:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25b497474fda1380f5f3d49f0310c730</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:57:23</sys_updated_on>
+            <u_task/>
+            <value>Employee Health Requirements</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compliance</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Falsifying Records</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:58:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>19059b474fda1380f5f3d49f0310c746</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:58:45</sys_updated_on>
+            <u_task/>
+            <value>Falsifying Records</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Investigations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Falsifying Records</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f484d3474fda1380f5f3d49f0310c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
+            <u_task/>
+            <value>Falsifying Records</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compliance</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fraud</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:58:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>95059b474fda1380f5f3d49f0310c748</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:58:45</sys_updated_on>
+            <u_task/>
+            <value>Fraud</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Corrective Action</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Licensure/Certifications</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:57:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1b497474fda1380f5f3d49f0310c732</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:57:23</sys_updated_on>
+            <u_task/>
+            <value>Licensure/Certifications</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Investigations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fit for Duty</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7484d3474fda1380f5f3d49f0310c7b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
+            <u_task/>
+            <value>Fit for Duty</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compliance</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leave of Absence Concern</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:58:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15059b474fda1380f5f3d49f0310c74a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:58:45</sys_updated_on>
+            <u_task/>
+            <value>Leave of Absence Concern</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Corrective Action</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parking</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:57:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21b497474fda1380f5f3d49f0310c734</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:57:24</sys_updated_on>
+            <u_task/>
+            <value>Parking</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Investigations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Harassment</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f084d3474fda1380f5f3d49f0310c7b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
+            <u_task/>
+            <value>Harassment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Corrective Action</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Performance</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:57:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adb497474fda1380f5f3d49f0310c735</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:57:24</sys_updated_on>
+            <u_task/>
+            <value>Performance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compliance</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Policy Violations</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:58:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91059b474fda1380f5f3d49f0310c74c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:58:45</sys_updated_on>
+            <u_task/>
+            <value>Policy Violations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Investigations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hiring Practices</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>7</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7084d3474fda1380f5f3d49f0310c7bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
+            <u_task/>
+            <value>Hiring Practices</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compliance</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scope of Practice</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>7</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:58:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11059b474fda1380f5f3d49f0310c74e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:58:45</sys_updated_on>
+            <u_task/>
+            <value>Scope of Practice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Investigations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hostile Work Environment</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>8</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd84d3474fda1380f5f3d49f0310c7bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
+            <u_task/>
+            <value>Hostile Work Environment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compliance</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Social Media Concerns</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>8</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:58:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d059b474fda1380f5f3d49f0310c74f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:58:45</sys_updated_on>
+            <u_task/>
+            <value>Social Media Concerns</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Investigations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inappropriate Behavior</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>9</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d84d3474fda1380f5f3d49f0310c7be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
+            <u_task/>
+            <value>Inappropriate Behavior</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compliance</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Time Clock Issues</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>9</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:58:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d059b474fda1380f5f3d49f0310c751</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:58:45</sys_updated_on>
+            <u_task/>
+            <value>Time Clock Issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Investigations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Privacy/HIPAA Violations</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>10</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c984d3474fda1380f5f3d49f0310c7c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
+            <u_task/>
+            <value>Privacy/HIPAA Violations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Investigations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retaliation</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>11</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4984d3474fda1380f5f3d49f0310c7c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
+            <u_task/>
+            <value>Retaliation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Investigations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Workplace Violence</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>12</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c584d3474fda1380f5f3d49f0310c7c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
+            <u_task/>
+            <value>Workplace Violence</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_case_sub_type</element>
+            <name>x_inthe_emp_rel_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:56:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fc8493034fda1380f5f3d49f0310c7e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_case_sub_type</sys_name>
+            <sys_package display_value="Employee Relations Case Management" source="x_inthe_emp_rel">c909474b4f5a1380f5f3d49f0310c723</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Employee Relations Case Management">c909474b4f5a1380f5f3d49f0310c723</sys_scope>
+            <sys_update_name>sys_choice_x_inthe_emp_rel_case_u_case_sub_type</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

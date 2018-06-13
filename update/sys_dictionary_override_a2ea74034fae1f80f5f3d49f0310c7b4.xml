@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>assignment_group</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_inthe_emp_rel_case</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual>active=true^typeLIKE85bbe407132a5b4404337a404244b0c9</reference_qual>
+        <reference_qual_override>true</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-06-11 17:01:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a2ea74034fae1f80f5f3d49f0310c7b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assignment_group</sys_name>
+        <sys_package display_value="Employee Relations Case Management" source="x_inthe_emp_rel">c909474b4f5a1380f5f3d49f0310c723</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Relations Case Management">c909474b4f5a1380f5f3d49f0310c723</sys_scope>
+        <sys_update_name>sys_dictionary_override_a2ea74034fae1f80f5f3d49f0310c7b4</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-06-11 17:01:24</sys_updated_on>
+    </sys_dictionary_override>
+</record_update>

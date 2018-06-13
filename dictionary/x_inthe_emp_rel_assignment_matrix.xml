@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Assignment Matrix" max_length="40" name="x_inthe_emp_rel_assignment_matrix" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" choice_field="u_case_sub_type" choice_table="x_inthe_emp_rel_case" label="Case Sub-Type" max_length="40" name="u_case_sub_type" type="choice">
+            <choice/>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" choice_field="u_case_type" choice_table="x_inthe_emp_rel_case" label="Case Type" max_length="40" name="u_case_type" type="choice">
+            <choice/>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Default Group" max_length="32" name="u_default_group" reference="sys_user_group" reference_qual="typeLIKE85bbe407132a5b4404337a404244b0c9^active=true^EQ" reference_qual_condition="typeLIKE85bbe407132a5b4404337a404244b0c9^active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="u_default_group"/>
+        </index>
+    </element>
+</database>
