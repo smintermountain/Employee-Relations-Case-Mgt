@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_inthe_emp_rel.security_admin" name="x_inthe_emp_rel.security_admin">58a38ca04f879fc0f5f3d49f0310c75e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-06-28 15:07:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>95e304a44f479fc0f5f3d49f0310c789</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>58a38ca04f879fc0f5f3d49f0310c75e</sys_name>
+        <sys_package display_value="Employee Relations Case Management" source="x_inthe_emp_rel">c909474b4f5a1380f5f3d49f0310c723</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Relations Case Management">c909474b4f5a1380f5f3d49f0310c723</sys_scope>
+        <sys_update_name>sys_embedded_help_role_95e304a44f479fc0f5f3d49f0310c789</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-06-28 15:07:21</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

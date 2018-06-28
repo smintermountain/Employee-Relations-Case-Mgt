@@ -32,12 +32,12 @@
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2018-06-11 18:35:46</sys_created_on>
         <sys_id>7090158f4fee1f80f5f3d49f0310c7e1</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-06-11 18:45:47</sys_updated_on>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>rfdougla</sys_updated_by>
+        <sys_updated_on>2018-06-21 22:02:59</sys_updated_on>
         <table>x_inthe_emp_rel_case</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="(IHC) HR Employee Relations Fulfillment">134da8474f6e1f80f5f3d49f0310c7c8</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

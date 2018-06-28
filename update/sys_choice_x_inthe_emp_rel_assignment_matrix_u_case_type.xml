@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_case_type" table="x_inthe_emp_rel_assignment_matrix" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Investigations</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_assignment_matrix</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-06-13 17:10:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88409be34f62df80f5f3d49f0310c7e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-06-13 17:10:34</sys_updated_on>
+            <u_task/>
+            <value>Investigations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corrective Action</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_assignment_matrix</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-06-13 17:10:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc409be34f62df80f5f3d49f0310c7e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-06-13 17:10:34</sys_updated_on>
+            <u_task/>
+            <value>Corrective Action</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Compliance</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_assignment_matrix</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-06-13 17:10:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c409be34f62df80f5f3d49f0310c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-06-13 17:10:34</sys_updated_on>
+            <u_task/>
+            <value>Compliance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Labor Relations</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_assignment_matrix</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-06-13 17:10:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8409be34f62df80f5f3d49f0310c7e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-06-13 17:10:34</sys_updated_on>
+            <u_task/>
+            <value>Labor Relations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Misc</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_assignment_matrix</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-06-13 17:10:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48409be34f62df80f5f3d49f0310c7e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-06-13 17:10:34</sys_updated_on>
+            <u_task/>
+            <value>Misc</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_case_type</element>
+            <name>x_inthe_emp_rel_assignment_matrix</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-06-13 17:10:34</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>88409be34f62df80f5f3d49f0310c7e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_case_type</sys_name>
+            <sys_package display_value="Employee Relations Case Management" source="x_inthe_emp_rel">c909474b4f5a1380f5f3d49f0310c723</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Employee Relations Case Management">c909474b4f5a1380f5f3d49f0310c723</sys_scope>
+            <sys_update_name>sys_choice_x_inthe_emp_rel_assignment_matrix_u_case_type</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-06-13 17:10:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

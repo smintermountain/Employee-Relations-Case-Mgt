@@ -3,7 +3,7 @@
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
         <action_update>false</action_update>
-        <active>true</active>
+        <active>false</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
@@ -37,7 +37,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>u_caller</recipient_fields>
+        <recipient_fields/>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -53,7 +53,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9dbf6d174fae5f80f5f3d49f0310c770</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>(IHC) Case is Submitted</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Relations Case Management" source="x_inthe_emp_rel">c909474b4f5a1380f5f3d49f0310c723</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Employee Relations Case Management">c909474b4f5a1380f5f3d49f0310c723</sys_scope>
         <sys_update_name>sysevent_email_action_9dbf6d174fae5f80f5f3d49f0310c770</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-06-12 16:01:50</sys_updated_on>
+        <sys_updated_on>2018-06-28 21:10:47</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

@@ -4,7 +4,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>ref_auto_completer=AJAXTableCompleter,ref_ac_columns=user_name;u_employee_id,ref_ac_columns_search=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice/>
@@ -51,7 +51,7 @@
         <sys_created_on>2018-05-30 17:33:24</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0a3fcb4f4f9a1380f5f3d49f0310c756</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Requested For</sys_name>
         <sys_package display_value="Employee Relations Case Management" source="x_inthe_emp_rel">c909474b4f5a1380f5f3d49f0310c723</sys_package>
         <sys_policy/>
@@ -59,7 +59,7 @@
         <sys_scope display_value="Employee Relations Case Management">c909474b4f5a1380f5f3d49f0310c723</sys_scope>
         <sys_update_name>sys_dictionary_x_inthe_emp_rel_case_u_caller</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-06-01 15:29:21</sys_updated_on>
+        <sys_updated_on>2018-06-27 16:14:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
