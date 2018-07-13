@@ -7,31 +7,32 @@
         <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_case_type" dependent_on_field="u_case_type" label="Case Sub-Type" max_length="40" name="u_case_sub_type" type="string" use_dependent_field="true">
             <choice>
                 <element dependent_value="Compliance" label="ADA - Accomodations" sequence="0" value="ADA - Accomodations"/>
-                <element dependent_value="Corrective Action" label="Behavior" sequence="0" value="Behavior"/>
+                <element dependent_value="Corrective Action" label="Attendance" sequence="0" value="Attendance"/>
                 <element dependent_value="Investigations" label="Cultural Assessment" sequence="0" value="Cultural Assessment"/>
                 <element dependent_value="Labor Relations" label="Organizing Effort" sequence="0" value="Organizing Effort"/>
                 <element dependent_value="Misc" label="Unemployment" sequence="0" value="Unemployment"/>
-                <element dependent_value="Corrective Action" label="Call Avoidance" sequence="1" value="Call Avoidance"/>
+                <element dependent_value="Corrective Action" label="Behavior" sequence="1" value="Behavior"/>
                 <element dependent_value="Compliance" label="Conflict of Interest" sequence="1" value="Conflict of Interest"/>
                 <element dependent_value="Investigations" label="Discrimination" sequence="1" value="Discrimination"/>
                 <element dependent_value="Misc" label="Other" sequence="1" value="Other"/>
                 <element dependent_value="Labor Relations" label="Solicitation" sequence="1" value="Solicitation"/>
+                <element dependent_value="Corrective Action" label="Call Avoidance" sequence="2" value="Call Avoidance"/>
                 <element dependent_value="Investigations" label="Documentation Practices" sequence="2" value="Documentation Practices"/>
                 <element dependent_value="Compliance" label="DOPL" sequence="2" value="DOPL"/>
-                <element dependent_value="Corrective Action" label="Education" sequence="2" value="Education"/>
                 <element dependent_value="Investigations" label="Drug Diversion" sequence="3" value="Drug Diversion"/>
-                <element dependent_value="Corrective Action" label="Employee Health Requirements" sequence="3" value="Employee Health Requirements"/>
+                <element dependent_value="Corrective Action" label="Education" sequence="3" value="Education"/>
                 <element dependent_value="Compliance" label="Falsifying Records" sequence="3" value="Falsifying Records"/>
+                <element dependent_value="Corrective Action" label="Employee Health Requirements" sequence="4" value="Employee Health Requirements"/>
                 <element dependent_value="Investigations" label="Falsifying Records" sequence="4" value="Falsifying Records"/>
                 <element dependent_value="Compliance" label="Fraud" sequence="4" value="Fraud"/>
-                <element dependent_value="Corrective Action" label="Licensure/Certifications" sequence="4" value="Licensure/Certifications"/>
                 <element dependent_value="Investigations" label="Fit for Duty" sequence="5" value="Fit for Duty"/>
                 <element dependent_value="Compliance" label="Leave of Absence Concern" sequence="5" value="Leave of Absence Concern"/>
-                <element dependent_value="Corrective Action" label="Parking" sequence="5" value="Parking"/>
+                <element dependent_value="Corrective Action" label="Licensure/Certifications" sequence="5" value="Licensure/Certifications"/>
                 <element dependent_value="Investigations" label="Harassment" sequence="6" value="Harassment"/>
-                <element dependent_value="Corrective Action" label="Performance" sequence="6" value="Performance"/>
+                <element dependent_value="Corrective Action" label="Parking" sequence="6" value="Parking"/>
                 <element dependent_value="Compliance" label="Policy Violations" sequence="6" value="Policy Violations"/>
                 <element dependent_value="Investigations" label="Hiring Practices" sequence="7" value="Hiring Practices"/>
+                <element dependent_value="Corrective Action" label="Performance" sequence="7" value="Performance"/>
                 <element dependent_value="Compliance" label="Scope of Practice" sequence="7" value="Scope of Practice"/>
                 <element dependent_value="Investigations" label="Hostile Work Environment" sequence="8" value="Hostile Work Environment"/>
                 <element dependent_value="Compliance" label="Social Media Concerns" sequence="8" value="Social Media Concerns"/>

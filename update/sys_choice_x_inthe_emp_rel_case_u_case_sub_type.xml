@@ -26,20 +26,20 @@
             <element>u_case_sub_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Behavior</label>
+            <label>Attendance</label>
             <language>en</language>
             <name>x_inthe_emp_rel_case</name>
             <sequence>0</sequence>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:57:23</sys_created_on>
+            <sys_created_on>2018-07-13 15:31:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e1b45f8f4f9a1380f5f3d49f0310c72d</sys_id>
+            <sys_id>4849195ddb931f00599d176a48961952</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:57:23</sys_updated_on>
+            <sys_updated_on>2018-07-13 15:31:24</sys_updated_on>
             <u_task/>
-            <value>Behavior</value>
+            <value>Attendance</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Investigations</dependent_value>
@@ -106,7 +106,7 @@
             <element>u_case_sub_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Call Avoidance</label>
+            <label>Behavior</label>
             <language>en</language>
             <name>x_inthe_emp_rel_case</name>
             <sequence>1</sequence>
@@ -114,12 +114,12 @@
             <sys_created_on>2018-05-30 17:57:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>61b45f8f4f9a1380f5f3d49f0310c72f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>e1b45f8f4f9a1380f5f3d49f0310c72d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:57:23</sys_updated_on>
+            <sys_updated_on>2018-07-13 15:31:24</sys_updated_on>
             <u_task/>
-            <value>Call Avoidance</value>
+            <value>Behavior</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Compliance</dependent_value>
@@ -202,6 +202,26 @@
             <value>Solicitation</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Corrective Action</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Call Avoidance</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:57:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61b45f8f4f9a1380f5f3d49f0310c72f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-07-13 15:31:24</sys_updated_on>
+            <u_task/>
+            <value>Call Avoidance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Investigations</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -242,26 +262,6 @@
             <value>DOPL</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Corrective Action</dependent_value>
-            <element>u_case_sub_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Education</label>
-            <language>en</language>
-            <name>x_inthe_emp_rel_case</name>
-            <sequence>2</sequence>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:57:23</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a5b497474fda1380f5f3d49f0310c72e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:57:23</sys_updated_on>
-            <u_task/>
-            <value>Education</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Investigations</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -286,7 +286,7 @@
             <element>u_case_sub_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Employee Health Requirements</label>
+            <label>Education</label>
             <language>en</language>
             <name>x_inthe_emp_rel_case</name>
             <sequence>3</sequence>
@@ -294,12 +294,12 @@
             <sys_created_on>2018-05-30 17:57:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>25b497474fda1380f5f3d49f0310c730</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>a5b497474fda1380f5f3d49f0310c72e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:57:23</sys_updated_on>
+            <sys_updated_on>2018-07-13 15:31:24</sys_updated_on>
             <u_task/>
-            <value>Employee Health Requirements</value>
+            <value>Education</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Compliance</dependent_value>
@@ -320,6 +320,26 @@
             <sys_updated_on>2018-05-30 17:58:45</sys_updated_on>
             <u_task/>
             <value>Falsifying Records</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Corrective Action</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Health Requirements</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:57:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25b497474fda1380f5f3d49f0310c730</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-07-13 15:31:24</sys_updated_on>
+            <u_task/>
+            <value>Employee Health Requirements</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Investigations</dependent_value>
@@ -360,26 +380,6 @@
             <sys_updated_on>2018-05-30 17:58:45</sys_updated_on>
             <u_task/>
             <value>Fraud</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Corrective Action</dependent_value>
-            <element>u_case_sub_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Licensure/Certifications</label>
-            <language>en</language>
-            <name>x_inthe_emp_rel_case</name>
-            <sequence>4</sequence>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:57:23</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a1b497474fda1380f5f3d49f0310c732</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:57:23</sys_updated_on>
-            <u_task/>
-            <value>Licensure/Certifications</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Investigations</dependent_value>
@@ -426,20 +426,20 @@
             <element>u_case_sub_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Parking</label>
+            <label>Licensure/Certifications</label>
             <language>en</language>
             <name>x_inthe_emp_rel_case</name>
             <sequence>5</sequence>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:57:24</sys_created_on>
+            <sys_created_on>2018-05-30 17:57:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>21b497474fda1380f5f3d49f0310c734</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>a1b497474fda1380f5f3d49f0310c732</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:57:24</sys_updated_on>
+            <sys_updated_on>2018-07-13 15:31:24</sys_updated_on>
             <u_task/>
-            <value>Parking</value>
+            <value>Licensure/Certifications</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Investigations</dependent_value>
@@ -466,7 +466,7 @@
             <element>u_case_sub_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Performance</label>
+            <label>Parking</label>
             <language>en</language>
             <name>x_inthe_emp_rel_case</name>
             <sequence>6</sequence>
@@ -474,12 +474,12 @@
             <sys_created_on>2018-05-30 17:57:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>adb497474fda1380f5f3d49f0310c735</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>21b497474fda1380f5f3d49f0310c734</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:57:24</sys_updated_on>
+            <sys_updated_on>2018-07-13 15:31:24</sys_updated_on>
             <u_task/>
-            <value>Performance</value>
+            <value>Parking</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Compliance</dependent_value>
@@ -520,6 +520,26 @@
             <sys_updated_on>2018-05-30 17:56:32</sys_updated_on>
             <u_task/>
             <value>Hiring Practices</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Corrective Action</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Performance</label>
+            <language>en</language>
+            <name>x_inthe_emp_rel_case</name>
+            <sequence>7</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-30 17:57:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adb497474fda1380f5f3d49f0310c735</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-07-13 15:31:24</sys_updated_on>
+            <u_task/>
+            <value>Performance</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Compliance</dependent_value>
